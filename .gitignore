@@ -57,3 +57,5 @@ typings/
 # dotenv environment variables file
 .env
 
+.remote-sync.json
+reso/globals.php

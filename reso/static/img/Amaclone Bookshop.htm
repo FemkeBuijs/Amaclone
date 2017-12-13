@@ -1,0 +1,1720 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://alessandro.gorecruit.me/Amaclone/frontShop.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title> Amaclone Bookshop </title>
+   <link rel="stylesheet" href="./Amaclone Bookshop_files/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+   <link rel="stylesheet" href="./Amaclone Bookshop_files/font-awesome.min.css">
+   <script src="./Amaclone Bookshop_files/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script><style></style>
+   <script src="./Amaclone Bookshop_files/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="./Amaclone Bookshop_files/main.css">
+</head>
+<!-- Below starts the html for our document -->
+<body>
+  <!-- Amaclone -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand ml-2" href="http://alessandro.gorecruit.me/Amaclone/frontShop.php">AMACLONE.co.uk</a>
+</nav>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!-- Shop by Department -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Shop by Department
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="http://alessandro.gorecruit.me/Amaclone/books.php">Books</a>
+          <a class="dropdown-item" href="http://alessandro.gorecruit.me/Amaclone/magazines.php">Magazines</a>
+          <a class="dropdown-item" href="http://alessandro.gorecruit.me/Amaclone/comics.php">Comics</a>
+        </div>
+      </li>
+    </ul>
+<!-- Searchbar -->
+    <form class="form-inline my-2 my-lg-0 mx-auto w-50" method="get" action="http://alessandro.gorecruit.me/Amaclone/shop.php">
+      <input class="form-control mr-sm-2 w-75" type="search" name="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
+
+
+      <!-- Sign in -->
+
+        <div class="d-flex justify-content-end">
+
+          <ul class="navbar-nav mr-auto px-2">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sign in / Log out
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="http://alessandro.gorecruit.me/Amaclone/registration.php">Sign Up</a>
+              <a class="dropdown-item" href="http://alessandro.gorecruit.me/Amaclone/login.php">Sign In</a>
+              <a class="dropdown-item" href="http://alessandro.gorecruit.me/Amaclone/logout.php">Log Out</a>
+            </div>
+          </li>
+
+
+
+      <!-- Orders -->
+
+          <li class="nav-item px-4 text-white">
+            <a class="nav-link text-white" href="http://alessandro.gorecruit.me/Amaclone/orders.php" id="orders">Orders</a>
+          </li>
+
+      <!-- Basket -->
+
+          <li class="nav-item dropdown px-2 text-white" id="basket">
+            <a class="nav-link dropdown-toggle text-white" href="http://example.com/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-shopping-cart text-white" aria-hidden="true" id="basket"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink" id="cart">
+              <a class="dropdown-item" href="http://alessandro.gorecruit.me/Amaclone/cart.php">My Cart</a>
+              <a class="dropdown-item" href="http://alessandro.gorecruit.me/Amaclone/checkout.php">Go to Checkout</a>
+            </div>
+          </li>
+
+      </ul>
+  </div>
+</div>
+</nav>
+
+<!-- Carousel -->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./Amaclone Bookshop_files/car1.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./Amaclone Bookshop_files/car2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./Amaclone Bookshop_files/car3.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<!-- Free delivery bar -->
+  <div class="container-fluid bg-dark">
+      <p class="text-center text-colour font-weight-bold text-white">FREE Delivery on millions of eligible items</p>
+  </div>
+
+<!-- Products Listing-->
+  <div class="container">
+    <div class="container-fluid">
+        <h5 class="text-left font-weight-bold">Books Best Sellers</h5>
+    </div>
+    <div class="overflow pl-3">
+
+
+    <div class="row" style="width: 1820px;">
+
+    <!-- Starting a loop through all of the rows of the products table to create a templated card for each row -->
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/way-of-kings.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_1" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/51MeZhJleZL._SX328_BO1,204,203,200_.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_2" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/220px-The_Fellowship_of_the_Ring_cover.gif" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_3" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/220px-The_Two_Towers_cover.gif" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_4" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/220px-The_Return_of_the_King_cover.gif" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_5" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/51N2nYfzQAL._SX323_BO1,204,203,200_.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_7" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/220px-TheHobbit_FirstEdition.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_8" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/images" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_9" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/images(1)" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_10" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/220px-Wizard&#39;s_First_Rule.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_11" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/images(2)" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_12" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/9781119942399.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_13" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+          </div>
+  </div>
+
+  
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">The Way of the Kings</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/way-of-kings.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                A new epic series by the best-selling writer of Robert Jordan's final Wheel of Time novels introduces the world of Roshar through the experiences of a war-weary royal compelled by visions, a highborn youth condemned to military slavery and a woman who would save her impoverished house.               </div>
+              <div class="modal-body text-center">
+                <b>£14.99</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=1">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Words of Radiance</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/51MeZhJleZL._SX328_BO1,204,203,200_.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Expected by his enemies to die the miserable death of a military slave, Kaladin survived to be given command of the royal bodyguards, a controversial first for a low-status "darkeyes." Now he must protect the king and Dalinar from every common peril as well as the distinctly uncommon threat of the Assassin, all while secretly struggling to master remarkable new powers that are somehow linked to his honorspren, Syl              </div>
+              <div class="modal-body text-center">
+                <b>£14.99</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=2">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">The Lord of the Rings: The Fellowship of the Ring</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/220px-The_Fellowship_of_the_Ring_cover.gif" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                The Fellowship of the Ring is the first of three volumes of the epic[2] novel The Lord of the Rings by the English author J. R. R. Tolkien. It is followed by The Two Towers and The Return of the King. It takes place in the fictional universe of Middle-earth. It was originally published on 29 July 1954 in the United Kingdom. The volume consists of a prologue titled "Concerning Hobbits, and other matters" followed by Book I and Book II.              </div>
+              <div class="modal-body text-center">
+                <b>£20.00</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=3">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">The Lord of the Rings: The Two Towers</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/220px-The_Two_Towers_cover.gif" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                The Two Towers is the second volume of J. R. R. Tolkien's high fantasy novel The Lord of the Rings. It is preceded by The Fellowship of the Ring and followed by The Return of the King.              </div>
+              <div class="modal-body text-center">
+                <b>£25.00</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=4">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">The Lord of the Rings: The Return of the King</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/220px-The_Return_of_the_King_cover.gif" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                The Return of the King is the third and final volume of J. R. R. Tolkien's The Lord of the Rings, following The Fellowship of the Ring and The Two Towers. The story begins in the kingdom of Gondor, which is soon to be attacked by the Dark Lord Sauron.              </div>
+              <div class="modal-body text-center">
+                <b>£30.00</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=5">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Oathbringer</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/51N2nYfzQAL._SX323_BO1,204,203,200_.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Dalinar Kholin’s Alethi armies won a fleeting victory at a terrible cost: The enemy Parshendi summoned the violent Everstorm, which now sweeps the world with destruction, and in its passing awakens the once peaceful and subservient parshmen to the horror of their millennia-long enslavement by humans. While on a desperate flight to warn his family of the threat, Kaladin Stormblessed must come to grips with the fact that the newly kindled anger of the parshmen may be wholly justified.              </div>
+              <div class="modal-body text-center">
+                <b>£25.00</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=7">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">The Hobbit</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/220px-TheHobbit_FirstEdition.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                The Hobbit is set in a time "between the Dawn of Færie and the Dominion of Men", and follows the quest of home-loving hobbit Bilbo Baggins to win a share of the treasure guarded by Smaug the dragon. Bilbo's journey takes him from light-hearted, rural surroundings into more sinister territory.              </div>
+              <div class="modal-body text-center">
+                <b>£25.00</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=8">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Mistborn: The Final Empire</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/images" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Mistborn: The Final Empire, also known simply as Mistborn or The Final Empire, is a fantasy novel written by American author Brandon Sanderson.              </div>
+              <div class="modal-body text-center">
+                <b>£9.99</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=9">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Mistborn: The Well of Ascension</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/images(1)" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Mistborn: The Well of Ascension is a fantasy novel written by American author Brandon Sanderson. It was published on August 21, 2007 by Tor Books and is the second novel in the Mistborn trilogy.              </div>
+              <div class="modal-body text-center">
+                <b>£9.99</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=10">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Wizard's First Rule</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/220px-Wizard&#39;s_First_Rule.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                The primary protagonist in Wizard's First Rule is Richard Cypher, a young woods guide. Richard lives in an area of the world known as Westland, which is one of three parts of the known world, divided by magical underworld boundaries.               </div>
+              <div class="modal-body text-center">
+                <b>£25.00</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=11">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Mistborn: The Hero of Ages</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/images(2)" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Mistborn: The Hero of Ages is a fantasy novel written by American author Brandon Sanderson. It was published on October 14, 2008 by Tor Books and is the third novel in the Mistborn trilogy              </div>
+              <div class="modal-body text-center">
+                <b>£9.99</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=12">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel"> Fractal Geometry: Mathematical Foundations and Applications </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/9781119942399.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                The seminal text on fractal geometry for students and researchers: extensively revised and updated with new material, notes and references that reflect recent directions.              </div>
+              <div class="modal-body text-center">
+                <b>£29.99</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=13">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Products Listing Mags-->
+  <div class="container">
+    <div class="container-fluid">
+        <h5 class="text-left font-weight-bold">Magazines Best Sellers</h5>
+    </div>
+    <div class="overflow pl-3">
+
+
+    <div class="row" style="width: 1820px;">
+
+    <!-- Starting a loop through all of the rows of the products table to create a templated card for each row -->
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/20171202_cuk400.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_18" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/xfour-four-two-magazine_7.jpg.pagespeed.ic.Z8OymYfoFN.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_19" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/50+COVER.png" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_21" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/149093.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_22" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/Take_a_Break_(magazine)_cover.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_23" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/200px-RadioTimes-cvr.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_24" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/Mens-Health-Illustrations.png" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_25" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/VN.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_26" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/De-Groene-Amsterdammer.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_27" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/288_1.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_28" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/image.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_29" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/GENTE_NO-33.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_30" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+          </div>
+  </div>
+
+  
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_18" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">The Economist</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/20171202_cuk400.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Your weekly update in the world of Finance.              </div>
+              <div class="modal-body text-center">
+                <b>£12.99</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=18">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_19" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Four Four Two</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/xfour-four-two-magazine_7.jpg.pagespeed.ic.Z8OymYfoFN.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Football crazy? Try out the ultimate magazine subscription for football fans. Jam-packed full of the latest football news, a FourFourTwo magazine subscription offers you an exciting monthly glossy full of expert columns, player information, match analysis, season predictions, transfer gossip and pundit opinions              </div>
+              <div class="modal-body text-center">
+                <b>£3.99</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=19">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_21" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">TV Choice</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/50+COVER.png" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                The U.K.'s most popular TV magazine, full of soap gossip.              </div>
+              <div class="modal-body text-center">
+                <b>£2.95</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=21">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_22" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Slimming World Magazine</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/149093.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                The U.K.'s most popular slimming magazine, full of great ideas on how to eat healthily and get into shape.              </div>
+              <div class="modal-body text-center">
+                <b>£2.50</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=22">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_23" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Take a Break</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/Take_a_Break_(magazine)_cover.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Take a Break is a weekly magazine aimed at women, currently published in the United Kingdom by H Bauer Publishing, the UK subsidiary of the German-owned family business, the Bauer Media Group since 1 March 1990. It retails at 94 pence and a new issue is published every Thursday. Take a Break is the most circulated women's magazine in the United Kingdom, and the 12th most circulated overall, with estimated circulation figures at 900,016 for the second half of 2009.              </div>
+              <div class="modal-body text-center">
+                <b>£0.85</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=23">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_24" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Radio Times</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/200px-RadioTimes-cvr.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Radio Times is one of the most popular broadcasting magazines in the U.K. It is full of informative articles and TV and radio listings.              </div>
+              <div class="modal-body text-center">
+                <b>£1.25</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=24">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_25" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Men's Health</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/Mens-Health-Illustrations.png" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                The only brand that improves every single area of your life.               </div>
+              <div class="modal-body text-center">
+                <b>£3.95</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=25">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_26" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Vrij Nederland</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/VN.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                De dagelijkse nieuws- en opiniesite van weekblad Vrij Nederland, voor een frisse blik op de actualiteit.              </div>
+              <div class="modal-body text-center">
+                <b>£2.35</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=26">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_27" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">de groene amsterdammer</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/De-Groene-Amsterdammer.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                De Groene Amsterdammer is het oudste opinieweekblad van Nederland, sinds 1877 onafhankelijk baken van de vrijzinnige meningsvorming op het gebied van politiek, maatschappij, cultuur en literatuur.              </div>
+              <div class="modal-body text-center">
+                <b>£4.95</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=27">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_28" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Beatrijs</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/288_1.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Beatrijs, referred to as the first Catholic magazine for women in the country,[2] was founded on 5 January 1939 as a "typical" traditional women's magazine, resembling Margriet and Libelle, with articles on fashion, cooking, home and family life.              </div>
+              <div class="modal-body text-center">
+                <b>£3.95</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=28">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_29" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">l'espresso</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/image.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                L'Espresso, la versione online del settimanale di politica, cultura ed economia. Notizie e approfondimenti, ampio spazio alla moda e alle opinioni degli utenti.              </div>
+              <div class="modal-body text-center">
+                <b>£4.50</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=29">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_30" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Gente</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/GENTE_NO-33.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Gente (meaning People in English)[1] is a popular and long-running Italian weekly current affairs[2] and celebrity gossip magazine.              </div>
+              <div class="modal-body text-center">
+                <b>£3.45</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=30">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Products Listing Comics-->
+  <div class="container">
+    <div class="container-fluid">
+        <h5 class="text-left font-weight-bold">Comics Best Sellers</h5>
+    </div>
+    <div class="overflow pl-3">
+
+
+    <div class="row" style="width: 1820px;">
+
+    <!-- Starting a loop through all of the rows of the products table to create a templated card for each row -->
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/images(3)" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_20" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/220px-Asterixcover-asterix_the_gaul.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_31" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/220px-Asterixcover-the_golden-sickle.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_32" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/220px-Asterixcover-asterix_and_the_goths.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_33" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/220px-Asterixcover-asterix_the_gladiator.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_34" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/220px-Asterixcover-asterix_and_the_banquet.jpg" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="#descriptionModal_35" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/_" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 6 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;218&lt;/b&gt;&lt;br /&gt;
+#descriptionModal_" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/_(1)" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 7 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;218&lt;/b&gt;&lt;br /&gt;
+#descriptionModal_" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/_(2)" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 8 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;218&lt;/b&gt;&lt;br /&gt;
+#descriptionModal_" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/_(3)" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 9 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;218&lt;/b&gt;&lt;br /&gt;
+#descriptionModal_" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/_(4)" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 10 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;218&lt;/b&gt;&lt;br /&gt;
+#descriptionModal_" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+              <!-- We create a card for each book which has title and author name at the top and then an image and price -->
+        <div class="productCard" style="width: 150px; height: auto;">
+          <div class="card card-primary border-0 text-center">
+            <div class="card-body px-0 mx-1 pb-0" style="height: 18em;">
+              <img src="./Amaclone Bookshop_files/_(5)" class="img-responsive w-100 h-75" alt="Image">
+              <button type="button" class="btn btn-primary w-100" data-toggle="modal" data-target="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 11 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;218&lt;/b&gt;&lt;br /&gt;
+#descriptionModal_" style="display:block;">
+                Description
+              </button>
+            </div>
+          </div>
+        </div>
+          </div>
+  </div>
+
+  
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_20" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Persepolis</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/images(3)" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Persepolis is a graphic autobiography by Marjane Satrapi that depicts her childhood up to her early adult years in Iran during and after the Islamic revolution. The title is a reference to the ancient capital of the Persian Empire, Persepolis. Newsweek ranked the book #5 on its list of the ten best non-fiction books of the decade.[1] Originally published in French, it has been translated into several languages including English.              </div>
+              <div class="modal-body text-center">
+                <b>£12.95</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=20">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_31" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Asterix the Gaul</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/220px-Asterixcover-asterix_the_gaul.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                All Gaul is under Roman control, except for one small village in Armorica (present-day Brittany), whose inhabitants are made invincible by a magic potion created periodically by the Druid Getafix.               </div>
+              <div class="modal-body text-center">
+                <b>£12.95</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=31">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_32" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Asterix and the Golden Sickle</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/220px-Asterixcover-the_golden-sickle.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Disaster strikes in the Gaulish village when Getafix the druid breaks his golden sickle, on grounds that without one, he cannot attend the annual conference of druids, or cut mistletoe for the magic potion which keeps the Roman armies at bay.              </div>
+              <div class="modal-body text-center">
+                <b>£12.95</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=32">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_33" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Asterix and the Goths</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/220px-Asterixcover-asterix_and_the_goths.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Asterix and Obelix, nervous about Getafix traveling alone to the annual druids' conference in the Forest of the Carnutes, accompany him on his journey and remain outside the forest during the conference              </div>
+              <div class="modal-body text-center">
+                <b>£12.95</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=33">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_34" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Asterix the Gladiator</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/220px-Asterixcover-asterix_the_gladiator.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                While stopping at the Roman Camp of Compendium, Prefect 'Odius Asparagus' wants one of the indomitable Gauls as a present for Julius Caesar.               </div>
+              <div class="modal-body text-center">
+                <b>£12.95</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=34">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="descriptionModal_35" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel">Asterix and the Banquet</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/220px-Asterixcover-asterix_and_the_banquet.jpg" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                Fed up with the resistance the indomitable Gauls show, Julius Caesar sends Inspector General Overanxius to the camp of Compendium.               </div>
+              <div class="modal-body text-center">
+                <b>£12.95</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=35">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 6 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;231&lt;/b&gt;&lt;br /&gt;
+descriptionModal_" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel"><br>
+<b>Notice</b>:  Undefined offset: 6 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>235</b><br>
+</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/_(6)" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                <br>
+<b>Notice</b>:  Undefined offset: 6 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>244</b><br>
+              </div>
+              <div class="modal-body text-center">
+                <b>£<br>
+<b>Notice</b>:  Undefined offset: 6 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>247</b><br>
+</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20offset:%206%20in%20%3Cb%3E/var/www/html/Amaclone/frontShop.php%3C/b%3E%20on%20line%20%3Cb%3E250%3C/b%3E%3Cbr%20/%3E">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 7 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;231&lt;/b&gt;&lt;br /&gt;
+descriptionModal_" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel"><br>
+<b>Notice</b>:  Undefined offset: 7 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>235</b><br>
+</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/_(7)" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                <br>
+<b>Notice</b>:  Undefined offset: 7 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>244</b><br>
+              </div>
+              <div class="modal-body text-center">
+                <b>£<br>
+<b>Notice</b>:  Undefined offset: 7 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>247</b><br>
+</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20offset:%207%20in%20%3Cb%3E/var/www/html/Amaclone/frontShop.php%3C/b%3E%20on%20line%20%3Cb%3E250%3C/b%3E%3Cbr%20/%3E">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 8 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;231&lt;/b&gt;&lt;br /&gt;
+descriptionModal_" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel"><br>
+<b>Notice</b>:  Undefined offset: 8 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>235</b><br>
+</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/_(8)" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                <br>
+<b>Notice</b>:  Undefined offset: 8 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>244</b><br>
+              </div>
+              <div class="modal-body text-center">
+                <b>£<br>
+<b>Notice</b>:  Undefined offset: 8 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>247</b><br>
+</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20offset:%208%20in%20%3Cb%3E/var/www/html/Amaclone/frontShop.php%3C/b%3E%20on%20line%20%3Cb%3E250%3C/b%3E%3Cbr%20/%3E">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 9 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;231&lt;/b&gt;&lt;br /&gt;
+descriptionModal_" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel"><br>
+<b>Notice</b>:  Undefined offset: 9 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>235</b><br>
+</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/_(9)" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                <br>
+<b>Notice</b>:  Undefined offset: 9 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>244</b><br>
+              </div>
+              <div class="modal-body text-center">
+                <b>£<br>
+<b>Notice</b>:  Undefined offset: 9 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>247</b><br>
+</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20offset:%209%20in%20%3Cb%3E/var/www/html/Amaclone/frontShop.php%3C/b%3E%20on%20line%20%3Cb%3E250%3C/b%3E%3Cbr%20/%3E">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 10 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;231&lt;/b&gt;&lt;br /&gt;
+descriptionModal_" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel"><br>
+<b>Notice</b>:  Undefined offset: 10 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>235</b><br>
+</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/_(10)" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                <br>
+<b>Notice</b>:  Undefined offset: 10 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>244</b><br>
+              </div>
+              <div class="modal-body text-center">
+                <b>£<br>
+<b>Notice</b>:  Undefined offset: 10 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>247</b><br>
+</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20offset:%2010%20in%20%3Cb%3E/var/www/html/Amaclone/frontShop.php%3C/b%3E%20on%20line%20%3Cb%3E250%3C/b%3E%3Cbr%20/%3E">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="&lt;br /&gt;
+&lt;b&gt;Notice&lt;/b&gt;:  Undefined offset: 11 in &lt;b&gt;/var/www/html/Amaclone/frontShop.php&lt;/b&gt; on line &lt;b&gt;231&lt;/b&gt;&lt;br /&gt;
+descriptionModal_" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h5 class="modal-title text-center w-100" id="exampleModalLabel"><br>
+<b>Notice</b>:  Undefined offset: 11 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>235</b><br>
+</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="./Amaclone Bookshop_files/_(11)" class="img-responsive" style="width:40%" alt="Image">
+              </div>
+              <div class="modal-body text-justify">
+                <br>
+<b>Notice</b>:  Undefined offset: 11 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>244</b><br>
+              </div>
+              <div class="modal-body text-center">
+                <b>£<br>
+<b>Notice</b>:  Undefined offset: 11 in <b>/var/www/html/Amaclone/frontShop.php</b> on line <b>247</b><br>
+</b>
+              </div>
+              <div class="modal-footer">
+                <a type="button" class="btn btn-primary" id="addToCart" href="http://alessandro.gorecruit.me/Amaclone/cartActions.php?action=addToCart&amp;id=%3Cbr%20/%3E%3Cb%3ENotice%3C/b%3E:%20%20Undefined%20offset:%2011%20in%20%3Cb%3E/var/www/html/Amaclone/frontShop.php%3C/b%3E%20on%20line%20%3Cb%3E250%3C/b%3E%3Cbr%20/%3E">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+</div>
+
+
+    <div class="m-t-3"></div>
+
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-top p-y-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-title text-center">
+          <h4 class="p-b-1">Contact Us</h4>
+        </div>
+        </div>
+
+
+          <div class="col-md-4">
+            <div class="card card-primary">
+              <div class="card-header" id="callUs">Call Us </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-primary">
+              <div class="card-header"><a href="http://alessandro.gorecruit.me/Amaclone/emailus.php">Email Us</a></div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-primary">
+              <div class="card-header">Chat with Us</div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row"><br>
+  </div>
+
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Address</h4>
+          <address>
+								<ul class="list-unstyled">
+									<li>
+                    Coolio Hall<br>
+										314 Scouse Street<br>
+										Liverpool<br>
+										L3 6HR<br>
+									</li>
+									<li id="phoneNo">
+										Phone: 0123 456 789
+									</li>
+								</ul>
+							</address>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Popular Services</h4>
+          <ul class="list-unstyled">
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#"></a></li>
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">Payment Center</a></li>
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">Contact Directory</a></li>
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">Forms</a></li>
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">News and Updates</a></li>
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">FAQs</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Website Information</h4>
+          <ul class="list-unstyled">
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">Website Tutorial</a></li>
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">Accessibility</a></li>
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">Disclaimer</a></li>
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">Privacy Policy</a></li>
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">FAQs</a></li>
+            <li><a href="http://alessandro.gorecruit.me/Amaclone/frontShop.php#">Webmaster</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <!--Footer Bottom-->
+          <p class="text-xs-center">© Copyright 2017 - Liverpool.  All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script type="text/javascript" src="./Amaclone Bookshop_files/shop.js"></script>
+<script type="text/javascript" src="./Amaclone Bookshop_files/cookies.js"></script>
+<script src="./Amaclone Bookshop_files/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="./Amaclone Bookshop_files/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="./Amaclone Bookshop_files/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+ 
+</body></html>

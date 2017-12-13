@@ -1,0 +1,14 @@
+footer {
+  padding: 25px;
+  background-color: #343a40;
+  color: white;
+}
+
+.card {
+  background-color: #febd68;
+  color: #343a40;
+}
+
+.list-unstyled li a {
+  color: white !important;
+}

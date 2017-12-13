@@ -1,0 +1,26 @@
+.panel-body {
+height: 225px !important;
+width: auto;
+text-align: center !important;
+
+}
+.panel-primary{
+  padding: 15px 10px !important;
+  margin: 15px 0 !important;
+  border-style: ridge !important;
+  text-align: center !important;
+}
+
+.addToCart{
+  margin-bottom: 3px !important;
+  background-color: #232F3F !important;
+}
+
+.collapsor {
+  background-color: #2d3d52 !important;
+}
+
+.panel-heading {
+height: 7em;
+width: auto;
+}

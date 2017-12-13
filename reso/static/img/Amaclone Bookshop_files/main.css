@@ -1,0 +1,39 @@
+footer {
+  padding: 25px;
+  background-color: #343a40;
+  color: white;
+}
+
+/*.card {
+  background-color: #febd68;
+  color: #343a40;
+}*/
+
+.list-unstyled li a {
+  color: white !important;
+}
+
+.overflow {
+  overflow-x: scroll !important;
+  white-space: nowrap !important;
+}
+
+.btn-outline-success {
+  background-color: #febd68;
+  border-color: #febd68;
+  color: #343a40;
+}
+
+#navbarDropdown {
+  color: white;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active {
+  background-color: #febd68;
+  border-color: #febd68;
+  color: #343a40;
+}
+
+.navpos {
+  margin-left: 10em !important;
+}

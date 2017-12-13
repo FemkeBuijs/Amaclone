@@ -1,0 +1,105 @@
+body {
+    font:12px arial;
+    color: #222;
+    text-align:center;
+    padding:35px; }
+
+form, p, span {
+    margin:0;
+    padding:0;
+  }
+input {
+  font:12px arial;
+  border-radius: 15px;
+  text-indent: 0.5em;
+}
+
+input:focus{
+  outline: none;
+}
+/*login form button*/
+#enter{
+  background-color: #febd68;
+  width:60px;
+}
+#enter:focus {
+  outline:none;
+}
+a {
+    text-decoration:none;
+    right: 0px; top: 0px; bottom: 5px; width:20px;
+    background-color: none; color: #72767c;
+    margin-right:18px;
+    border-radius: 20px;
+    cursor:pointer;
+    font-size:20px; font-weight:bold;
+  }
+
+    a:hover {
+      text-decoration:none;
+    }
+
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#e5e5e5;
+    width:504px;
+    border:1px solid #72767c;
+    border-radius: 15px;
+  }
+
+#loginform {
+  padding-top:18px;
+}
+
+    #loginform p {
+      margin: 5px;
+      margin-bottom:15px;
+    }
+
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #72767c;
+    overflow:auto;
+    border-radius: 15px;
+  }
+
+#usermsg {
+    width:385px;
+    height:40px;
+    border:1px solid #72767c;
+    border-radius: 15px;
+    text-indent: 0.5em;
+
+  }
+#usermsg:focus {
+  outline:none;
+}
+
+/*chat submit button*/
+#submitmsg {
+  width: 60px;
+  height:40px;
+  background-color: #febd68;
+  border-radius: 40%;
+  border-style: solid;
+}
+#submitmsg:focus {
+  outline:none;
+}
+
+.error { color: #ff0000; }
+
+#menu { padding:12.5px 25px 12.5px 25px; }
+
+.welcome { float:left; }
+
+.logout { float:right; }
+
+.msgln { margin:0 0 2px 0; }
