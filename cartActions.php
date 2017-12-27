@@ -8,8 +8,7 @@ $cart = new Cart();
 if(isset($_REQUEST['action']) && !empty($_REQUEST['action'])){
   //if the request action is add to cart, and the request id is not empty
   if($_REQUEST['action'] == 'addToCart' && !empty($_REQUEST['id'])){
-    var_dump($_REQUEST['id']);
-    $productID = $_REQUEST['id'];
+    $productID = mysqli_real_escape_string($con, $_REQUEST['id']);
     //get product details
     $query = mysqli_query($con, "SELECT * FROM products WHERE product_id = ".$productID);
     //change the mysqli object to an associative array (= hashmat)
@@ -22,7 +21,7 @@ if(isset($_REQUEST['action']) && !empty($_REQUEST['action'])){
     );
     //send the array to the insert function in the Cart Class
     $insertItem = $cart->insert($itemData);
-    //if insertItem returns TRUE, set the location to .., else ..
+    //if insertItem returns TRUE, set the location to ..
     if($insertItem){
       header("Location: ".$_SESSION['previous_location']);
     }
@@ -45,14 +44,14 @@ if(isset($_REQUEST['action']) && !empty($_REQUEST['action'])){
       header("Location: cart.php");
     }
   } elseif ($_REQUEST['action'] == 'placeOrder' && $cart->total_items() > 0 && !empty($_SESSION['user'])){
-    //insert order details into the database, this will return either TRUE or FALSE
+    //insert order into the database, this will return either TRUE or FALSE
     $insertOrder = mysqli_query($con, "INSERT INTO orders (user_id, total_price) VALUES ('".$_SESSION['user']['user_id']."', '".$cart->total()."')");
 
     if($insertOrder){
       //specify a specific order id, mysqli_insert_id returns the auto generated id used in the latest query
       $orderID = mysqli_insert_id($con);
       $query = '';
-      // get cart items from the cart_contents variable to store in the order_items table
+      // get cart items from the cart_contents variable to be able to store them in the order_items table
       $cartItems = $cart->contents();
       // loop through the array of that contents() returned, and make a multi query
       foreach($cartItems as $item){

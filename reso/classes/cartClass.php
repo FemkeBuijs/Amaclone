@@ -44,14 +44,14 @@ class Cart {
       //turn the quantity to a floating number to be safe
       $item['quantity'] = (float) $item['quantity'];
       //if it's empty return false
-      if($item['quantity'] == 0){
+      if($item['quantity'] === 0){
         return FALSE;
       }
       //turn the price to a floating number to be safe
       $item['price'] = (float) $item['price'];
-      //create a unique identifier for the item being inserted into the cart_total
+      //create a unique identifier for the item being inserted into the cart_contents
       $rowId = md5($item['id']);
-      //check if there is already a quantity set for a specific item, if not create a new one and set it to 0
+      //check if there is already a quantity property set for a specific item, if not create a new one and set it to 0
       if(!isset($this->cart_contents[$rowId]['quantity'])){
         $old_quantity = $this->cart_contents[$rowId]['quantity'] = 0;
       } else {
@@ -63,11 +63,7 @@ class Cart {
       $this->cart_contents[$rowId] = $item;
       // save Cart item
       if($this->save_cart()){
-        if(isset($rowId)){
-          return $rowId;
-        } else {
-          return TRUE;
-        }
+        return TRUE;
       } else {
         return FALSE;
       }
@@ -81,7 +77,7 @@ class Cart {
       //turn the quantity to a floating number to be safe
       $item['quantity'] = (float) $item['quantity'];
       //if quantity is 0, delete the item
-      if($item['quantity'] == 0){
+      if($item['quantity'] === 0){
         $removeItem = $this->remove($item['rowId']);
         if($removeItem){
           return TRUE;
@@ -100,8 +96,8 @@ class Cart {
     //do a for each loop through the array or arrays, where key is the array number, and val the content of the array
     foreach($this->cart_contents as $key => $val){
       //make sure the val is an array and that the price and quantity are set
-      if(is_array($val) OR isset($val['price'], $val['quantity'])){
-        //set the total in the cart_contents array, which adds the price*quantity of each seperate second array
+      if(is_array($val) AND isset($val['price'], $val['quantity'])){
+        //set the total and total items in the cart_contents array, which adds the price*quantity of each item in the cart
         $this->cart_contents['cart_total'] += ($val['price']*$val['quantity']);
         $this->cart_contents['total_items'] += ($val['quantity']);
       }

@@ -112,7 +112,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
           </tr>
       </tfoot>
       </table>
-  <?php if($noAddresses==0){ ?>
+  <?php if($noAddresses===0){ ?>
     <h4> Please provide your address for the delivery: </h4>
     <hr />
     <br />
